@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   // IMPORTANT: Change '/anniversary/' to match your GitHub repo name
-  base: '/-anniversary/',
+  base: '/anniversary.github.io/',
   plugins: [react(), tailwindcss()],
 })
