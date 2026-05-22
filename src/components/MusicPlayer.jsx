@@ -14,7 +14,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 // REPLACE: Path to your romantic instrumental music file
 // Place your .mp3 in the public/ folder and update this path
-const MUSIC_SRC = import.meta.env.BASE_URL + 'music.mp3';
+const MUSIC_SRC = '/music.mp3';
 
 export default function MusicPlayer() {
   const [isPlaying, setIsPlaying] = useState(false);

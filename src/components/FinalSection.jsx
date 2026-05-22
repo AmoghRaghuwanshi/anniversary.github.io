@@ -140,7 +140,7 @@ export default function FinalSection() {
         {/* Family centerpiece photo */}
         <motion.div initial={{ opacity: 0, y: 40, scale: 0.9 }} animate={isVisible ? { opacity: 1, y: 0, scale: 1 } : {}}
           transition={{ delay: 1, duration: 1, ease: [0.16, 1, 0.3, 1] }}
-          className="relative mx-auto mb-14 w-64 sm:w-80 md:w-96 flex justify-center">
+          className="relative mx-auto mb-14 w-64 sm:w-80 md:w-96">
           <div className="w-full rounded-2xl overflow-hidden aspect-[3/4] relative"
             style={{ boxShadow: '0 30px 80px rgba(0,0,0,0.5), 0 0 40px rgba(183,110,121,0.1), 0 0 80px rgba(201,169,110,0.05)' }}>
             <img src={photos.final.centerpiece} alt="Our Family"
@@ -157,7 +157,7 @@ export default function FinalSection() {
         {/* Final quote */}
         <motion.blockquote initial={{ opacity: 0, y: 20 }} animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ delay: 1.3, duration: 0.8 }}
-          className="max-w-2xl mx-auto mb-8 flex justify-center text-center">
+          className="max-w-2xl mx-auto mb-8 text-center">
           <p className="text-lg md:text-xl lg:text-2xl font-light italic leading-relaxed text-center"
             style={{ fontFamily: 'var(--font-display)', color: 'var(--cream)', opacity: 0.85 }}>
             "The greatest thing you'll ever learn is just to love and be loved in return."
